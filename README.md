@@ -1,5 +1,5 @@
 # School-Management-System
-A simple school management system with frontend and backend.
+A simple school management website with frontend and backend.
 FRONTEND:
 HTML,CSS,SASS,JS and JQUERY
 BACKEND:
