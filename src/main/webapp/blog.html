@@ -1,0 +1,280 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>19p206 &mdash; Anjana Murali</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="WEB BASED SCHOOL MANAGEMENT SYSTEM" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="Anjana" />
+
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+
+	<!-- Pricing -->
+	<link rel="stylesheet" href="css/pricing.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	
+	<style>  
+		input[type="submit"], input[type="reset"] {
+			background-color: rgba(21, 29, 141, 0.705);
+             color: black;
+            transition-duration: 0.4s;
+		}
+
+		input[type="submit"]:hover, input[type="reset"]:hover {
+          background-color:#54aacc; 
+          color: black;
+             }
+		
+		input[type="text"] {  
+			width: 250px;  
+		}  
+		 
+		form{  
+			text-align: center;  
+			font-family: 'Times New Roman', Times, serif;  
+			font-size: 15px;  
+			 color:black; 
+			width: 600px;  
+			  
+		}  
+		td {  
+			padding: 10px;  
+		}  
+		td:first-child {  
+			text-align: right;  
+			font-weight: bold;  
+		}  
+		td:last-child {  
+			text-align: left;  
+		}
+	</style> 
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="top">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 text-right">
+						<p class="site">anjanamurali.techtraining.tech</p>
+						<p class="num">Call: +91 6379079159</p>
+						<ul class="fh5co-social">
+							<li><a href="#"><i class="icon-facebook2"></i></a></li>
+							<li><a href="#"><i class="icon-twitter2"></i></a></li>
+							<li><a href="#"><i class="icon-dribbble2"></i></a></li>
+							<li><a href="#"><i class="icon-github"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="top-menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-2">
+						<div id="fh5co-logo"><a href="index.html"><i class="icon-study"></i>KenFds<span></span></a></div>
+					</div>
+					<div class="col-xs-10 text-right menu-1">
+						<ul>
+							<li><a href="courses.html">Courses</a></li>
+							<li><a href="teacher.html">Teacher</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="pricing.html">Pricing</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<li class="btn-cta"><a href="login.html"><span>Login</span></a></li>
+								<li class="btn-cta"><a href="blog.html"><span>Sign Up</span></a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</nav>
+	
+	<aside id="fh5co-hero">
+		<div class="flexslider">
+			<ul class="slides">
+		   	<li style="background-image: url(images/img_bg_4.jpg);">
+		   		<div class="overlay-gradient"></div>
+		   		<div class="container">
+		   			<div class="row">
+			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
+			   				<div class="slider-text-inner">
+			   					<h1 class="heading-section">Register</h1>
+									
+			   				</div>
+			   			</div>
+			   		</div>
+		   		</div>
+		   	</li>
+		  	</ul>
+	  	</div>
+	</aside>
+
+	<div id="fh5co-blog">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Register and be a part of our family</h2>
+			<p><a href="update.html">If you want to update values,Click Me!</a></p>
+	  
+    <form method="POST" action="RegisterServlet" name="reg_form" onsubmit="return validate()">    
+           
+        <table>    
+            <tr>    
+                <td><label>*First Name: </label></td>    
+                <td>    
+                    <input type="text" name="fname" id="fname" placeholder="First Name">    
+                </td>    
+            </tr>    
+            <tr>    
+                <td><label>*Last Name: </label></td>    
+                <td>    
+                    <input type="text" name="lname" id="lname" placeholder="Last Name">    
+                </td>    
+            </tr>    
+            <tr>    
+                <td><label>*Address: </label></td>    
+                <td>    
+                    <input type="textarea" size="50" name="address" id="address" placeholder="Address">    
+                </td>    
+            </tr>    
+             
+            <tr>    
+                <td><label>*Email Id: </label></td>    
+                <td>    
+                    <input type="text" name="email" id="email" placeholder="example@gmail.com">    
+                </td>    
+            </tr>    
+            <tr>    
+                <td><label>*Mobile: </label></td>    
+                <td>    
+                    <input type="tel" name="mobile" id="mobile">    
+                </td>    
+            </tr>    
+            <tr>    
+          
+			<tr>    
+                <td><label>*Password: </label></td>    
+                <td>    
+					<input type="password" placeholder="Enter Password" name="psw" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>  
+					
+                </td>    
+            </tr>
+			<tr>
+				<td><input type="checkbox" name="remember" id="rem"> Remember me <br>
+	  <p>By creating an account you agree to our <a href="terms.html" style="color:dodgerblue">Terms & Privacy</a>.</p></td>
+                
+	</tr>
+    
+            <tr>    
+                <td>  
+                    <input type="submit" name="option" value="submit" formaction="RegisterServlet">
+                     
+                </td>
+				  
+            </tr>             
+        </table>    
+    </form> 
+</div>
+</div>
+
+</div>
+</div>   
+
+				
+
+	
+
+	<footer id="fh5co-footer" role="contentinfo" style="background-image: url(images/img_bg_4.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; 2021 | KenFds. All Rights Reserved.</small> 
+						
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	<script src="js/blog.js"></script>
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+
+	<!-- Main -->
+	<script src="js/main.js"></script>
+	
+	
+	</body>
+</html>
+
